@@ -1,0 +1,11 @@
+object_analytics_node:
+  ubuntu: [ros-ardent-object-analytics-node]
+movidius_ncs_launch:
+  ubuntu: [ros-ardent-movidius-ncs-launch]
+object_msgs:
+  ubuntu: [ros-ardent-object-msgs]
+object_analytics_msgs:
+  ubuntu: [ros-ardent-object-analytics-msgs]
+cv_bridge:
+  ubuntu: [ros-ardent-cv-bridge]
+

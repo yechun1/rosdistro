@@ -7,5 +7,16 @@ release_platforms:
   - bionic
   - xenial
 repositories:
+  ros2_object_analytics:
+    release:
+      packages:
+      - object_analytics_launch
+      - object_analytics_msgs
+      - object_analytics_node
+      tags:
+        release: release/bouncy/{package}/{version}
+      url: https://github.com/ros2-gbp/ros2_object_analytics-release.git
+      version: 0.3.0-0
+    status: maintained
 type: distribution
 version: 2

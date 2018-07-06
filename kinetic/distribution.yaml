@@ -2772,17 +2772,17 @@ repositories:
   librealsense:
     doc:
       type: git
-      url: https://github.com/IntelRealSense/librealsense.git
-      version: master
+      url: https://github.com/yechun1/librealsense.git
+      version: legacy
     release:
       tags:
         release: release/kinetic/{package}/{version}
-      url: https://github.com/intel-ros/librealsense-release.git
+      url: https://github.com/yechun1/librealsense-release.git
       version: 1.12.1-0
     source:
       type: git
-      url: https://github.com/IntelRealSense/librealsense.git
-      version: master
+      url: https://github.com/yechun1/librealsense.git
+      version: legacy
     status: maintained
   libsick_ldmrs:
     doc:

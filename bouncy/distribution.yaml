@@ -7,6 +7,13 @@ release_platforms:
   - bionic
   - xenial
 repositories:
+  librealsense:
+    release:
+      tags:
+        release: release/bouncy/{package}/{version}
+      url: https://github.com/yechun1/librealsense-release.git
+      version: 1.12.1-0
+    status: maintained
   ros2_object_analytics:
     release:
       packages:

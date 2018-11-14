@@ -1017,6 +1017,17 @@ repositories:
       url: https://github.com/ros2/ros1_bridge.git
       version: bouncy
     status: developed
+  ros2_object_analytics:
+    release:
+      packages:
+      - object_analytics_launch
+      - object_analytics_msgs
+      - object_analytics_node
+      - object_analytics_rviz
+      tags:
+        release: release/bouncy/{package}/{version}
+      url: https://github.com/yechun1/ros2_object_analytics-release.git
+      version: 0.4.0-1
   ros2cli:
     doc:
       type: git

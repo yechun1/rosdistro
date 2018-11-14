@@ -6,5 +6,16 @@ release_platforms:
   ubuntu:
   - bionic
 repositories:
+  object_msgs:
+    release:
+      tags:
+        release: release/crystal/{package}/{version}
+      url: https://github.com/ros2-gbp/ros2_object_msgs-release.git
+      version: 0.3.0-0
+    source:
+      type: git
+      url: https://github.com/intel/ros2_object_msgs.git
+      version: master
+    status: maintained
 type: distribution
 version: 2
